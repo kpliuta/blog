@@ -4,10 +4,17 @@ title = "Uncommitted Semicolon"
 theme = "PaperMod"
 
 [params]
+env = "production"
 defaultTheme = "dark"
 comments = true
 showReadingTime = true
 disableAnchoredHeadings = true
+
+params.assets.favicon = "/favicon.ico"
+params.assets.favicon16x16 = "/favicon-16x16.png"
+params.assets.favicon32x32 = "/favicon-32x32.png"
+params.assets.apple_touch_icon = "/apple-touch-icon.png"
+params.assets.safari_pinned_tab = "/safari-pinned-tab.svg"
 
 [params.homeInfoParams]
 Content = "![](images/home.png)"

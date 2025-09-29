@@ -119,7 +119,7 @@ DISPLAY=:1 python /path/to/my/script.py
 
 The whole setup looks like this:
 
-{{<figure src="images/setup.png" width="360" height="426" align="center">}}
+{{< figure src="images/setup.png" width="360" height="426" align="center" >}}
 
 Simple, elegant, and effective, wouldn't you agree?
 
@@ -214,7 +214,7 @@ Now my moto pings me on Telegram if something suspicious happens. More reliable,
 
 ## The Journey's End (For Now)
 
-What started as a personal vendetta against a bureaucratic website turned into a learning experience and a powerful mobile automation setup. It's a testament to the classic programmer's itch: if something is tedious and repetitive, automate it!
+The whole thing began because of poorly designed bureaucratic website, but it became a great learning opportunity and resulted in a useful system for automating tasks on a phone.
 
 And speaking of automation, my co-pilot ChatGPT deserves some credit here too. Vibe-coding with it was a blast as much as helping me to brainstorm and refine parts of this very article!
 
