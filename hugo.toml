@@ -1,18 +1,34 @@
-baseURL = "https://example.org/"
+baseURL = "https://kpliuta.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Uncommitted Semicolon"
 theme = "PaperMod"
 
 [params]
 defaultTheme = "dark"
 comments = true
 showReadingTime = true
+disableAnchoredHeadings = true
 
-#[menu]
-#[[menu.main]]
-#name = "Tags"
-#url = "/tags/"
-#weight = 10
+[params.homeInfoParams]
+Content = "![](images/home.png)"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/kpliuta"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/kpliuta"
+
+[[menu.main]]
+name = "Archive"
+url = "/archives/"
+weight = 5
+
+[[menu.main]]
+name = "Tags"
+url = "/tags/"
+weight = 10
 
 [caches]
 [caches.images]
